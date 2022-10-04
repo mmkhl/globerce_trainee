@@ -1,0 +1,9 @@
+.sideBar{
+  display: block;
+  min-width: 300px;
+  height: 800px;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+}

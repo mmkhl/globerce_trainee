@@ -1,0 +1,39 @@
+.searchStr {
+  display: flex;
+  padding: 5px;
+  border-radius: 5px;
+  max-width: 350px;
+  height: inherit;
+  background-color: #F3F3F3;
+}
+
+.searchImg{
+  display:flex;
+  align-items: center;
+  width: auto;
+}
+
+div.searchStr img{
+  width: 25px;
+  height: 23.5px;
+}
+
+div.searchStr input {
+  font-size: 16px;
+  width: 100%;
+  margin: 0 13px ;
+  height: 27px;
+  background-color: #F3F3F3;
+  border: none;
+  outline: none;
+}
+
+div.clear{
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  /* rotate: 45deg; */
+  font-size: 25px;
+}
+
+
