@@ -1,7 +1,7 @@
 // import './SideBar/MenuItem'
 import MenuItem from './SideBar/MenuItem'
 import styles from './MainContent.module.css'
-import SelectOptions from './SelectOptions/SelectOptions'
+import Content from './Content'
 
 
 export default function MainContent(){
@@ -14,10 +14,8 @@ export default function MainContent(){
         <MenuItem name="Новочти"/>
         <MenuItem name="Арендовать авто"/>
       </div>
-      <SelectOptions/>
-      <span>123</span>
+      <Content/>
     </div>
-    
   </div>
 }
 
