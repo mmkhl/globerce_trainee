@@ -17,8 +17,6 @@ function Search () {
     <img src= {searchIco} alt='icon-search'/>
   </div>
   <input type="text" placeholder='Поиск модели' value={state} onChange={(e) => {setState(e.target.value)}}/>
-  {state.length !== 0 && 
-    <div className={styles.clear} onClick={console.log(123)}>+</div>}
 </div>
   
   return search

@@ -1,4 +1,4 @@
-import './SideBar/MenuItem'
+// import './SideBar/MenuItem'
 import MenuItem from './SideBar/MenuItem'
 import styles from './MainContent.module.css'
 import SelectOptions from './SelectOptions/SelectOptions'
