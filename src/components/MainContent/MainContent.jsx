@@ -5,6 +5,7 @@ import Content from './Content'
 
 
 
+
 export default function MainContent(){
   return <div>
     <div className={styles.content}>
@@ -16,7 +17,6 @@ export default function MainContent(){
         <MenuItem name="Арендовать авто"/>
       </div>
       <Content/>
-  
     </div>
   </div>
 }
