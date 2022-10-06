@@ -12,6 +12,7 @@ export default function Content(){
     </div>
     <AddService/>
     <Advantages/>
+    
   </div>
   )
 

@@ -6,7 +6,7 @@ import img3 from './image 6.png'
 
 
 
-export default function Advantages(props){
+export default function Advantages(){
   return <div className={styles.advantages}>
     <AdvantageTile src={img1} alt={"Quick"} text={"Быстрое оформление"}/>
     <AdvantageTile src={img2} alt={"Comfortable"} text={"Удобный пункт выдачи"}/>
