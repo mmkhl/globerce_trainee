@@ -1,0 +1,12 @@
+.feedbackSections{
+  margin: 30px 0;
+}
+
+.fdbkBlock{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left{
+  max-width: 400px;
+}
