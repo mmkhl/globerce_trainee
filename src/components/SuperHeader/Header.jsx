@@ -12,8 +12,8 @@ function Header(){
   return <div className={styles.header}>
     <Logo/>
     <BtnHeader name="О нас"/>
-    <BtnHeader name="Аренда"/>
-    <BtnHeader name="Контакты"/>
+    <BtnHeader anchor="#rent" name="Аренда"/>
+    <BtnHeader anchor="#contactInfo" name="Контакты"/>
     <BtnHeader name="Акции"/>
     <Search/>
     <div className="schedule">
