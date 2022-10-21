@@ -10,6 +10,12 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  transition: border 0.1s linear;
+  cursor: pointer;
+}
+.tile:hover{
+  border: none;
+
 }
 
 .signature{

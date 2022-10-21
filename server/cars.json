@@ -1,0 +1,45 @@
+{
+  "cars": [
+  {
+    "id": 1, 
+    "make": "BMW", 
+    "model": "M3",
+    "power": "300",
+    "price": "54000"
+  },
+  {
+    "id": 2, 
+    "make": "Mercedes", 
+    "model": "G-class",
+    "power": "300",
+    "price": "60000"
+  },
+  {
+    "id": 3, 
+    "make": "Lexus", 
+    "model": "LX570",
+    "power": "410",
+    "price": "85000"
+  },
+  {
+    "id": 4, 
+    "make": "Toyota", 
+    "model": "camry 50",
+    "power": "212",
+    "price": "35000"
+  },
+  {    
+    "id": 5, 
+    "make": "Toyota", 
+    "model": "camry 70",
+    "power": "300",
+    "price": "40000"
+  },
+  {
+    "id": 6, 
+    "make": "Crysler", 
+    "model": "3000S",
+    "power": "300",
+    "price": "28000"
+  }
+]}
