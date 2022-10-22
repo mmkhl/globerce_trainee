@@ -13,7 +13,7 @@ export default function MainContent(){
         <MenuItem name="Категории"/>
         <MenuItem name="Автомобили"/>
         <MenuItem name="Акции"/>
-        <MenuItem name="Новочти"/>
+        <MenuItem name="Новоcти"/>
         <MenuItem name="Арендовать авто"/>
       </div>
       <Content/>

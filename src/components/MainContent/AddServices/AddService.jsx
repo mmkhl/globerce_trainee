@@ -12,7 +12,7 @@ import img6 from "./6.png"
 console.log(img1);
 export default function AddService(){
   return(<>
-    <h2 id="rent">Дополнительные услуги для</h2>
+    <h2 id="#rent">Дополнительные услуги для</h2>
     <div className={styles.tileList}>
       <ServiceTile alt="camry 40" src={`url(${img1})`}/>
       <ServiceTile alt="lexus 570" src={`url(${img2})`} />

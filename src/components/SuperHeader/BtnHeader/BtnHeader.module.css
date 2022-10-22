@@ -1,6 +1,7 @@
 .btn {
   color: #909090;
   text-decoration: none;
+  cursor: pointer;
   width: auto;
   height: 40px;
   display: flex;

@@ -4,7 +4,7 @@ import styles from './Contacts.module.css';
 
 export default function Contacts(){
   return <div className={styles.tilesBlocks}>
-      <h2 id='contactInfo'>Контакты</h2>
+      <h2 id='#contactInfo'>Контакты</h2>
       <hr/>
     <div className={styles.tiles}>
       <ContactTile name="Адрес" details="г.Алматы, ул. Жибек Жолы 135"/>
