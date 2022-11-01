@@ -11,10 +11,10 @@ import styles from "./Header.module.css"
 function Header(){
   return <div className={styles.header}>
     <Logo/>
-    <BtnHeader name="О нас"/>
+    <BtnHeader anchor="" name="О нас"/>
     <BtnHeader anchor="#rent" name="Аренда"/>
     <BtnHeader anchor="#contactInfo" name="Контакты"/>
-    <BtnHeader name="Акции"/>
+    <BtnHeader anchor="" name="Акции"/>
     <Search/>
     <div className="schedule">
       <Contacts name="График работы"/>

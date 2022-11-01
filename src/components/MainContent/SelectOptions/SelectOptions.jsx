@@ -1,17 +1,26 @@
 import styles from './Options.module.css'
 import TimeSelect from './TimeSelect/TimeSelect'
-import Optionally from './Optionally/Optionally'
+import Details from './Optionally/Details'
 import ButtonSelect from './ButtonSelect/ButtonSelect'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
+import { useSelector } from 'react-redux';
 
-export default function SelectOptions({selectCar}){
+
+export default function SelectOptions(){
   const firstToast = (type, message) => () =>{
     toast[type](message)
   }
+  const selectCar = useSelector(state => state.carRent.car)
   return <div className={styles.options}>
-    <h2>Вы выбрали {selectCar}</h2>
+    
+    { <Details 
+    power={selectCar.power} 
+    model={selectCar.model}
+    make={selectCar.make}
+    price={selectCar.price}
 
+    />}
     <TimeSelect placeholder="Время"/>
     <ToastContainer/>
     <ButtonSelect onClick={firstToast('success', 'Вы арендовали машину')} className="green" value="Арендовать"/>

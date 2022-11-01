@@ -1,12 +1,16 @@
+import { setCar } from '../../../../redux/slice/carRent'
 import styles from './ServiceTile.module.css'
-export default function ServiceTile(props){
+import { useDispatch } from 'react-redux';
 
-  console.log(props.src);
+export default function ServiceTile({src, model, id}){
+  const dispatch = useDispatch()
+  const selectId = car => {
+    dispatch(setCar(car))
+  }
   return <>
-    {/* <div className={styles.tile} style={{ backgroundImage: props.src }}> */}
-    <div className={styles.tile} style={{ backgroundImage: props.src}}>
+    <div onClick={()=>selectId(id)} className={styles.tile} style={{ backgroundImage: src}}>
       <div className={styles.signature}>
-      Аренда
+      {model}
       </div>
     </div>
   </>

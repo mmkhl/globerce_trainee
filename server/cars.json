@@ -5,6 +5,7 @@
     "make": "BMW", 
     "model": "M3",
     "power": "300",
+    "url": "images/6.png",
     "position": [43.26171310000001, 76.92932094232916],
     "price": "54000"
   },
@@ -13,6 +14,7 @@
     "make": "Mercedes", 
     "model": "G-class",
     "power": "300",
+    "url": "images/4.png",
     "position": [43.253348636123135, 76.92280383035131],
     "price": "60000"
   },
@@ -21,6 +23,7 @@
     "make": "Lexus", 
     "model": "LX570",
     "power": "410",
+    "url": "images/2.png",
     "position": [43.2306126256455, 76.90540130231379],
     "price": "85000"
   },
@@ -29,6 +32,7 @@
     "make": "Toyota", 
     "model": "camry 50",
     "power": "212",
+    "url": "images/1.png",
     "position": [43.25834124301912, 76.92211682901653],
     "price": "35000"
   },
@@ -37,6 +41,7 @@
     "make": "Toyota", 
     "model": "camry 70",
     "power": "300",
+    "url": "images/3.png",
     "position": [43.26219987053118, 76.91960043924549],
     "price": "40000"
   },
@@ -45,7 +50,8 @@
     "make": "Crysler", 
     "model": "3000S",
     "power": "300",
-    "position": [43.25898051987522, 76.93192427156715],
+    "url": "images/5.png",
+    "position": [43.25898051987502, 76.93192427156715],
     "price": "28000"
   }
 ]}

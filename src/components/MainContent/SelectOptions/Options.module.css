@@ -1,8 +1,9 @@
 .options{
   box-sizing: border-box;
-  margin: 0 30px;
+  margin: 0 auto;
   display: block;
-  min-width: 300px;
+  width: 100%;
+  max-width: 300px;
   height: auto;
 }
 

@@ -8,6 +8,12 @@ export const rentalApi = createApi({
     cars: builder.query({
       query: () => '/cars',
     }),
+    details: builder.query({
+      query: (id) => `/cars/${id}`,
+    }),
+    searchCar: builder.query({
+      query: (model) => `cars?q=${model}`, 
+    })
   }),
 })
 
