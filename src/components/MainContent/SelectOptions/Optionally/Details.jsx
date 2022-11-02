@@ -1,5 +1,4 @@
 import styles from "./Optionally.module.css"
-import {useDispatch} from 'react-redux'
 
 export default function Details({power, model, make, price}){
   return <div className={styles.blockParam}>

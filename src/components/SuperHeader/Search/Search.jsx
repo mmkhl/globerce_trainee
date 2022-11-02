@@ -28,11 +28,11 @@ export default function Search () {
       </div>
       <input type="text" placeholder='Поиск модели' onBlur={updateQuery} value={state} onChange={(e) => {setState(e.target.value)}}/>
       <div className='clear'>
-        {state.length>0 ? <div onClick={clearState} className={styles.deleteState}>&times;</div>: ""}
+        {state.length > 0 ? <div onClick={clearState} className={styles.deleteState}>&times;</div>: ""}
       </div>
       
     </div>
-    {queryString.length > 0 && <Dropdown list={queryString.length > 0 ? data : []} />}
+    {queryString.length > 0 &&  data.map( (car)=><Dropdown key={car.id} list={car} />)}
   </div>
   
   
